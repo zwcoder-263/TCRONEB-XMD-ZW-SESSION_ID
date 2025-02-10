@@ -54,15 +54,15 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'LAZACK-BOT;;;' + b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'TCRONEB-XMD-ZW;;;' + b64data });
 
                let SIGMA_MD_TEXT = `
 ━━━━━━━━━━━❀˖°❀˖°❀˖°┗━━━━━━━━━━━             
 ||*_👌 hello guys this is youre session id_*
-||*_✅ you will need it to upload on all bots of lazack28_*
-||*_📡 currently working on Lazack-md_*
+||*_✅ you will need it to upload on all bots of TCRONEB XMD PLUS_*
+||*_📡 currently working on TCRONEB XMD PLUS_*
 ||*_📌 join all of whatsapp group for our updates daily_*
-||   |❀˖|*group* : https://chat.whatsapp.com/ICNOZzsDH9E81j3RlqLx4w
+||   |❀˖|*group* : https://chat.whatsapp.com/LqD6utmLF699JIW9R82O95
 ||*_Don't Forget To Give Star To My Repo_*`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
