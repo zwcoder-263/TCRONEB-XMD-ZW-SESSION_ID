@@ -61,10 +61,10 @@ router.get('/', async (req, res) => {
 				   let SIGMA_MD_TEXT = `
 ━━━━━━━━━━━❀˖°❀˖°❀˖°┗━━━━━━━━━━━             
 ||*_👌 hello guys this is youre session id_*
-||*_✅ you will need it to upload on all bots of lazack28_*
-||*_📡 currently working on Lazack-md_*
+||*_✅ you will need it to upload on all bots of TCRONEB XMD PLUS_*
+||*_📡 currently working on TCRONEB XMD PLUS_*
 ||*_📌 join all of whatsapp group for our updates daily_*
-||   |❀˖|*group* : https://chat.whatsapp.com/ICNOZzsDH9E81j3RlqLx4w
+||   |❀˖|*group* : https://chat.whatsapp.com/LqD6utmLF699JIW9R82O95
 ||*_Don't Forget To Give Star To My Repo_*`
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
